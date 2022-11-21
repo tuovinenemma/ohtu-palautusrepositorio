@@ -23,7 +23,7 @@ Register With Too Short Username And Valid Password
 Register With Valid Username And Too Short Password
     Set Username  emma
     Set Password  e1
-    Set Password Confirmation  kal123
+    Set Password Confirmation  e1
     Submit Credentials
     Register Should Fail With Message  Password min lenght is 8
 
