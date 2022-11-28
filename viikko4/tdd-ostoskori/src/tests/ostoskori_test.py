@@ -86,13 +86,10 @@ class TestOstoskori(unittest.TestCase):
 
     def test_jos_korissa_yksi_tuotete_ja_se_poistetaan_kori_tyhja(self):
         self.kori.lisaa_tuote(self.maito)
-
         self.kori.poista_tuote(self.maito)
-
         self.assertEqual(self.kori.tavaroita_korissa(), 0)
 
     def test_tyhjenna_kori(self):
         self.kori.lisaa_tuote(self.maito)
         self.kori.tyhjenna()
-
         self.assertEqual(self.kori.tavaroita_korissa(), 0)
