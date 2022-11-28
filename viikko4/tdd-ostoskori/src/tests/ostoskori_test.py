@@ -90,3 +90,9 @@ class TestOstoskori(unittest.TestCase):
         self.kori.poista_tuote(self.maito)
 
         self.assertEqual(self.kori.tavaroita_korissa(), 0)
+
+    def test_tyhjenna_kori(self):
+        self.kori.lisaa_tuote(self.maito)
+        self.kori.tyhjenna()
+
+        self.assertEqual(self.kori.tavaroita_korissa(), 0)
