@@ -1,6 +1,8 @@
 ## Start, Stop, Continue, More of, Less of Wheel ja Glad, Sad, Mad retrospektiivitekniikat
 
 
+
+
 Start, Stop, Continue, More of, Less of Wheel ja Glad, Sad, Mad ovat retrospektiivitekniikoita, jotka keskittyvät projektin edistymiseen.  
 
 Start, Stop, Continue, More of, Less of Wheel tekniikassa käytetään lyhyempi aika n.10-25 minuuttia projektin kulun purkamiseen. Tekniikassa kehitetään ympyrä, jossa käsitellään aihetta erilaisten kategorioiden avulla. Ryhmää kannustetaan miettimään ja kommentoimaan aihetta ja tämän eri vaiheita kysymysten avulla.  
