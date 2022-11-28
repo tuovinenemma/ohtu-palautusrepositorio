@@ -1,3 +1,3 @@
-# ohtu-palautusrepositorio
+# Ohjelmistotuotanto palautusrepositorio
 
 https://github.com/tuovinenemma/ohtuvarasto
