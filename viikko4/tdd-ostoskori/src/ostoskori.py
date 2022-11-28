@@ -6,7 +6,12 @@ class Ostoskori:
         self.ostokset = []
 
     def tavaroita_korissa(self):
-        return len(self.ostokset)
+        summa = 0
+        for ostos in self.ostokset:
+            summa += ostos._lukumaara
+
+        return summa
+            
 
         # kertoo korissa olevien tavaroiden lukumäärän
         # eli jos koriin lisätty 2 kpl tuotetta "maito", tulee metodin palauttaa 2 
@@ -21,8 +26,12 @@ class Ostoskori:
         # kertoo korissa olevien ostosten yhteenlasketun hinnan
 
     def lisaa_tuote(self, lisattava: Tuote):
-        ostos = Ostos(lisattava)
-        self.ostokset.append(ostos)
+        for ostos in self.ostokset:
+            if ostos.tuote == lisattava:
+                ostos.muuta_lukumaaraa(1)
+                return
+        uusi_tuote = Ostos(lisattava)
+        self.ostokset.append(uusi_tuote)
 
     def poista_tuote(self, poistettava: Tuote):
         # poistaa tuotteen
