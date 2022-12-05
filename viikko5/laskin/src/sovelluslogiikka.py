@@ -54,7 +54,6 @@ class Erotus:
         self.syote = 0
 
 
-
 class Nollaus:
     def __init__(self, sovelluslogiikka: Sovelluslogiikka) -> None:
         self.sovelluslogiikka = sovelluslogiikka
