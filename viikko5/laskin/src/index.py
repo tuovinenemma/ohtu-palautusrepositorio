@@ -3,6 +3,7 @@ from kayttoliittyma import Kayttoliittyma
 from sovelluslogiikka import Sovelluslogiikka
 
 
+
 def main():
     sovellus = Sovelluslogiikka()
 
