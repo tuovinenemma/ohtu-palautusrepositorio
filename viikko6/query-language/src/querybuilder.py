@@ -1,6 +1,5 @@
 from matchers import All, And, PlaysIn, HasAtLeast, HasFewerThan, Or
 
-
 class QueryBuilder:
     def __init__(self, query=All()):
         self._query = query

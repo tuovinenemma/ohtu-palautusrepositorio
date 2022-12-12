@@ -4,7 +4,7 @@ class Player:
         self.team = team
         self.goals = goals
         self.assists = assists
-
+        
     @property
     def points(self):
         return self.goals + self.assists

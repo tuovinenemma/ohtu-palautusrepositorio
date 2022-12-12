@@ -9,14 +9,12 @@ class And:
 
         return True
 
-
 class PlaysIn:
     def __init__(self, team):
         self._team = team
 
     def test(self, player):
         return player.team == self._team
-
 
 class HasAtLeast:
     def __init__(self, value, attr):
